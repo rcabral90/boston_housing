@@ -11928,8 +11928,8 @@ Standard deviation of prices: $165,171.13
 <p><strong>Answer: </strong></p>
 
 <pre><code>An increase in RM would probably cause the 'MDEV' or price to increase. The more room a house has then the higher median price of housing, which would mean that the house has more space to offer.
-An increase in LSTATE would probably cause the 'MDEV' to increase as well. The more homeowners have, the greater the worth of each homeowner in the neighborhood had, which would increase the price of housing.
-And an increase in PTRATIO would also increase the MDEV because of the investments in education, it would attract rich neighbors to be populated in those areas.</code></pre>
+An increase in LSTATE would probably cause the 'MDEV' to decrease, this is because "lower class" means there is lower income in the area and would only be able to afford lower value homes.
+And an increase in PTRATIO would also cause the 'MDEV' to decrease. More students vs teachers would mean larger classrooms and less indivdualized attention for each student. This causes a decrease in education which means less students go to a university therefore earning less.</code></pre>
 
 </div>
 </div>
@@ -12134,7 +12134,7 @@ And an increase in PTRATIO would also increase the MDEV because of the investmen
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong>
-    If we weren't to split the dataset into training and testing subsets, then we would not be able to evaluate the result. If we were to use the same dataset used for training the model, thne it would have more of a chance of getting a high score which doesn't potray the results accurately. Repetition of the same dataset would always give the same results. In order to avoid this we would have to introduce another dataset which give the model a higher performace base on diversity.</p>
+    If we weren't to split the dataset into training and testing subsets, then we would not be able to evaluate the result. If we were to use the same dataset used for training the model, then it would have more of a chance of getting a high score which doesn't portray the results accurately because we can check to see if our algorithims are overfitting. Repetition of the same dataset would always give the same results. In order to avoid this we would have to introduce another dataset which give the model a higher performace base on diversity.</p>
 
 </div>
 </div>
@@ -14686,7 +14686,7 @@ RU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong>
-    The grid search technique uses a range of values for hyper-parameters, like maximum depth, in order to find the optimum hyper-parameters values that result in the best performing model.</p>
+    The grid search technique uses a range of values for hyper-parameters, like maximum depth, in order to find the optimum hyper-parameters values that result in the best performing model. We can pick of list of values for each parameter and try out multiple combinations of these values to fine tune the performance of the model.</p>
 
 </div>
 </div>
@@ -14708,7 +14708,7 @@ RU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong>
-    The k-fold cross-validation training technique involved the original sample tha tis randomly partitioned in k-equal sized subsamples. One of the subsample is used as the validation set for the test model and the other is used as the training data. THe cross-validation process is then used repeatedly k time with each of the subsamples used exactly once as the validation data. The results are then averaged to produce a single estimation point. The k-fold cross-validation provides an accurate regault train test split, this is becaue when the number of smaples is low, it is preferred to use k-fold corss-validation training technique with the grid-search.</p>
+   The kfold cross validation training technique is a way to split the training dataset into k equal subsets and retain one as a validation set and k-1 as training sets. One of the subsample is used as the validation set for the test model and the other is used as the training data. THe cross-validation process is then used repeatedly k time with each of the subsamples used exactly once as the validation data. The results are then averaged to produce a single estimation point. The k-fold cross-validation provides an accurate regault train test split, this is because when the number of smaples is low, it is preferred to use k-fold corss-validation training technique with the grid-search. This type of technique will allow hyper parameters used in grid search not to lose training dataset from hainvg to split it as a seperate additional validation dataset.</p>
 
 </div>
 </div>
